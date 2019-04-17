@@ -2,11 +2,11 @@
 import { SyntheticEvent, FormEvent } from 'react';
 
 export type ElementEvent<E> = {
-  target: E
+    target: E;
 } & SyntheticEvent;
 
 export type FormElementEvent = {
-  target: E
+    target: E;
 } & FormEvent;
 
 export type InputEvent = ElementEvent<HTMLInputElement>;
